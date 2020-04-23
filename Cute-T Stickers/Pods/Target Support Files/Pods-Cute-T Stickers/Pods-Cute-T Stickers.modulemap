@@ -1,0 +1,6 @@
+framework module Pods_Cute_T_Stickers {
+  umbrella header "Pods-Cute-T Stickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -109,6 +109,7 @@
 		3E8542AF2450276D002E821E /* Pack_5_5.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3E8542972450276C002E821E /* Pack_5_5.GIF */; };
 		3E8542B02450276D002E821E /* Pack_5_1.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3E8542982450276C002E821E /* Pack_5_1.GIF */; };
 		3E8542B12450276D002E821E /* Pack_5_13.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3E8542992450276D002E821E /* Pack_5_13.GIF */; };
+		3E85681E245163D400D656D4 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E85681D245163D400D656D4 /* StickerCell.swift */; };
 		3EDB2F8A244EA42E00C6F2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2F89244EA42E00C6F2A9 /* AppDelegate.swift */; };
 		3EDB2F8C244EA42E00C6F2A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2F8B244EA42E00C6F2A9 /* SceneDelegate.swift */; };
 		3EDB2F91244EA42F00C6F2A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2F8F244EA42F00C6F2A9 /* Main.storyboard */; };
@@ -118,9 +119,11 @@
 		3EDB2FA0244EAE2C00C6F2A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2F9F244EAE2C00C6F2A9 /* DetailViewController.swift */; };
 		3EDB2FA2244EAEB400C6F2A9 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2FA1244EAEB400C6F2A9 /* PopUpViewController.swift */; };
 		3EDB2FA4244EAEED00C6F2A9 /* NewPackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2FA3244EAEED00C6F2A9 /* NewPackViewController.swift */; };
+		4F977CA60A2BEAADCEEEDC88 /* Pods_Cute_T_Stickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC3456A0D54CBA214F94EA7 /* Pods_Cute_T_Stickers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD3CBD256F6DAA47C0BFC64 /* Pods-Cute-T Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cute-T Stickers.release.xcconfig"; path = "Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers.release.xcconfig"; sourceTree = "<group>"; };
 		3E8541E6245026D1002E821E /* Pack_1_9.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_1_9.GIF; sourceTree = "<group>"; };
 		3E8541E7245026D1002E821E /* Pack_1_7.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_1_7.GIF; sourceTree = "<group>"; };
 		3E8541E8245026D1002E821E /* Pack_1_12.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_1_12.GIF; sourceTree = "<group>"; };
@@ -223,6 +226,7 @@
 		3E8542972450276C002E821E /* Pack_5_5.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_5_5.GIF; sourceTree = "<group>"; };
 		3E8542982450276C002E821E /* Pack_5_1.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_5_1.GIF; sourceTree = "<group>"; };
 		3E8542992450276D002E821E /* Pack_5_13.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Pack_5_13.GIF; sourceTree = "<group>"; };
+		3E85681D245163D400D656D4 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
 		3EDB2F86244EA42E00C6F2A9 /* Cute-T Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cute-T Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDB2F89244EA42E00C6F2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EDB2F8B244EA42E00C6F2A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 		3EDB2F9F244EAE2C00C6F2A9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3EDB2FA1244EAEB400C6F2A9 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		3EDB2FA3244EAEED00C6F2A9 /* NewPackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPackViewController.swift; sourceTree = "<group>"; };
+		6435E6C0816BBBF945EACF85 /* Pods-Cute-T Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cute-T Stickers.debug.xcconfig"; path = "Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC3456A0D54CBA214F94EA7 /* Pods_Cute_T_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cute_T_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,12 +247,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F977CA60A2BEAADCEEEDC88 /* Pods_Cute_T_Stickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1911696C2E22143624F4FCB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC3456A0D54CBA214F94EA7 /* Pods_Cute_T_Stickers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E8541DF2450257C002E821E /* Sticker Packs */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +416,8 @@
 			children = (
 				3EDB2F88244EA42E00C6F2A9 /* Cute-T Stickers */,
 				3EDB2F87244EA42E00C6F2A9 /* Products */,
+				81D212013EC0B06C066EF140 /* Pods */,
+				1911696C2E22143624F4FCB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -422,12 +439,23 @@
 				3EDB2F9F244EAE2C00C6F2A9 /* DetailViewController.swift */,
 				3EDB2FA1244EAEB400C6F2A9 /* PopUpViewController.swift */,
 				3EDB2FA3244EAEED00C6F2A9 /* NewPackViewController.swift */,
+				3E85681D245163D400D656D4 /* StickerCell.swift */,
 				3EDB2F8F244EA42F00C6F2A9 /* Main.storyboard */,
 				3EDB2F92244EA47600C6F2A9 /* Assets.xcassets */,
 				3EDB2F94244EA47600C6F2A9 /* LaunchScreen.storyboard */,
 				3EDB2F97244EA47600C6F2A9 /* Info.plist */,
 			);
 			path = "Cute-T Stickers";
+			sourceTree = "<group>";
+		};
+		81D212013EC0B06C066EF140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6435E6C0816BBBF945EACF85 /* Pods-Cute-T Stickers.debug.xcconfig */,
+				1AD3CBD256F6DAA47C0BFC64 /* Pods-Cute-T Stickers.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,9 +465,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EDB2F9A244EA47600C6F2A9 /* Build configuration list for PBXNativeTarget "Cute-T Stickers" */;
 			buildPhases = (
+				36F716A5546AE28BE290D2C1 /* [CP] Check Pods Manifest.lock */,
 				3EDB2F82244EA42E00C6F2A9 /* Sources */,
 				3EDB2F83244EA42E00C6F2A9 /* Frameworks */,
 				3EDB2F84244EA42E00C6F2A9 /* Resources */,
+				F6B7F79ED2351DDF7CE58C8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -598,6 +628,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36F716A5546AE28BE290D2C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cute-T Stickers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B7F79ED2351DDF7CE58C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EDB2F82244EA42E00C6F2A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -608,6 +680,7 @@
 				3EDB2F8A244EA42E00C6F2A9 /* AppDelegate.swift in Sources */,
 				3EDB2F8C244EA42E00C6F2A9 /* SceneDelegate.swift in Sources */,
 				3EDB2F9E244EADDC00C6F2A9 /* HomeViewController.swift in Sources */,
+				3E85681E245163D400D656D4 /* StickerCell.swift in Sources */,
 				3EDB2FA0244EAE2C00C6F2A9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -750,6 +823,7 @@
 		};
 		3EDB2F9B244EA47600C6F2A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6435E6C0816BBBF945EACF85 /* Pods-Cute-T Stickers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -767,6 +841,7 @@
 		};
 		3EDB2F9C244EA47600C6F2A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD3CBD256F6DAA47C0BFC64 /* Pods-Cute-T Stickers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
