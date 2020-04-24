@@ -10,3 +10,13 @@ target 'Cute-T Stickers' do
 pod 'SDWebImage', '~> 5.0'
 
 end
+
+target 'Cute-T Stickers iMessage Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Cute-T Stickers iMessage Extension
+
+pod 'SDWebImage', '~> 5.0'
+
+end

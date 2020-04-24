@@ -1,0 +1,6 @@
+framework module Pods_Cute_T_Stickers_iMessage_Extension {
+  umbrella header "Pods-Cute-T Stickers iMessage Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

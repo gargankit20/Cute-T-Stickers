@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,6 +45,7 @@
 		31B11DBCEB819CA09CDBE06AFBC5D042 /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C72C032A1C88603F652C05CC3C3BB4DD /* SDImageLoader.m */; };
 		35F57A31B2AA3993BA1531EB4046F210 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 972E82F600A6889931FE84266ACF8BF0 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36621693E1F851DC19393E3D4256825E /* SDAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D87304790BD919515ED6B587E728E15 /* SDAnimatedImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386C2A82EA5622C8F23E1E94250BD918 /* Pods-Cute-T Stickers iMessage Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1D1EC4D0720C87D79A3B93DDD8C69C /* Pods-Cute-T Stickers iMessage Extension-dummy.m */; };
 		3BCEF9DA94F2ADFBD7223AB57D917729 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E85DF31A87C83ACB7F9009226F069CEE /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C6FC75C019A3A0D5D544D9B80A3787A /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AA31FF058F2954D652EB8FD8D96ECE35 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DE1357C8D24C421101523595D17B728 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A770B3E888BCEBCB7506DF794D6B3E4 /* UIImage+ForceDecode.m */; };
@@ -54,6 +55,7 @@
 		3F7CC08D0597BDB9D4FDD7701C1B5575 /* SDImageIOAnimatedCoderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2316CA05D7CD909342F30932A81B54 /* SDImageIOAnimatedCoderInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3FFFA1D8B5B98BA54F089AC440C33FA2 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 202B60AAF16FC171FF912F411AD6C82B /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40387FCECBCDA48EE5528C0256B367A1 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9C9199BE529EC75686EB6AF511A241 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B2B0B4909111436EFD66893898051F /* Pods-Cute-T Stickers iMessage Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C61F9089664846BA4C43B09D3B11EA4 /* Pods-Cute-T Stickers iMessage Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		412A1CEAA6FDB48F831FF76158915DBD /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C8DF394E97F37C1913BB097EEFD84E /* SDImageCachesManagerOperation.m */; };
 		43CD1419807C720E6010F680BEDC6AAE /* UIImage+ExtendedCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B256D801B9B418487F6A7CAD87321 /* UIImage+ExtendedCacheData.m */; };
 		468DA98714BBDB4687F03BBB45BD00CD /* SDWebImageDownloaderDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D57348F939C629C1124A528522A30B /* SDWebImageDownloaderDecryptor.m */; };
@@ -105,12 +107,13 @@
 		917ACAC73D037E48BCFD0EA8FF219251 /* SDFileAttributeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CE5FBC516010A1DC23D4288E9643AE /* SDFileAttributeHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		919C16F68E8E61F3CE4EF95705B29EDB /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D8F50E05A660119D578B16A55140A7 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92040D0228AD62D9602BF9C4B2D81425 /* NSBezierPath+SDRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0523D9A73F9480152027171D664124 /* NSBezierPath+SDRoundedCorners.m */; };
+		93174780E7331B6B1FC722E573CE81EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
 		94260D2BE359362AA2C6CB74B0BDF21E /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A98C524C673A23147EA6DD947CC19C8 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9508EA3A4DD55F1F416DEE2470239D68 /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E19BDA6ED0D56DC2065FF07164F1AE0 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		984DE49916E818FA6A364A86E2F3D7F4 /* SDAnimatedImagePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDD1BCEE05DFD4A4EC9794EB10210C /* SDAnimatedImagePlayer.m */; };
 		99E3C2C6BDEF40713AB384775648DFC6 /* SDAssociatedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C7038C0487F4EFF87F26DE75B17207C0 /* SDAssociatedObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D63C486B8575CCC7F405E49BC69E070 /* SDDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCCCB116402A4D9DE377422FCE45007 /* SDDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F3DABA77FEC95E1F1C8EE989CF81D00 /* Pods-Cute-T Stickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AF3E5F9C47286A70533C4630EDEDD2 /* Pods-Cute-T Stickers-dummy.m */; };
+		9F3DABA77FEC95E1F1C8EE989CF81D00 /* Pods-Cute-T Stickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 728A9CC67CA502A3B1BEB1C81F586B39 /* Pods-Cute-T Stickers-dummy.m */; };
 		A3FA8419FDB9E8393DB8F0F912272BDC /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F4070812F53135AF4E17028BF505E /* SDAssociatedObject.m */; };
 		A8D8A4752AAED2DCBDCF78C3943A9BC5 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = D946101CC3F887664F5CEA4AB5CC3E4E /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AABFC3CEB87FD8ECB79DE341C1EDB3FF /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAA76A181D0B6F33A27DAAD1DEADD89 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,7 +138,7 @@
 		CFDCBB01245D1884841DBA83EC3D1EC2 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DC5FB183B8C6B7DEA44F1C62E9DACF /* SDWebImageCompat.m */; };
 		D024BD987B786374B2157AB0AADF74CA /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B91B442ED19E6908DCD203D33028771 /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B870C8EC2398C6CD0B893B519DBC82 /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DB976834EF53CEC8F68BAAA3F58E00 /* SDWebImageOptionsProcessor.m */; };
-		D7C9881AEE4168F4BC110DC34C97CED7 /* Pods-Cute-T Stickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB2C4C9C09868EE5AA83316C95BD7E31 /* Pods-Cute-T Stickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C9881AEE4168F4BC110DC34C97CED7 /* Pods-Cute-T Stickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44400EB73DDC305CED5470AC3FE3F87 /* Pods-Cute-T Stickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7D37AC86CFE0B22F349BF3FE97A447F /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BDB25FB278E90D057E712FA292DBE4 /* SDWebImageDownloaderOperation.m */; };
 		E2178146F923249B2AD02FB6126343A7 /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 514F07A00D0116DF8447FF488F355AD4 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E484BDDDE5533BC798BC5FF9DA17774E /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA1F977D492D82171EC214245C8FC63 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -156,6 +159,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9F4046DAC80542D9CEC937D44DF1BA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
 		D9119F4F6C20BA22C014353A73DA81A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -170,9 +180,11 @@
 		06271A229DC17E93FEE6515D86906B71 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		0656788166FDDB68426A1E9D3F2E2D14 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
 		073281A26C0B1D4D37BF97989EA2A5C5 /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		09D763DBB6ED241AE2C5ECBE919A01E7 /* Pods-Cute-T Stickers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cute-T Stickers-frameworks.sh"; sourceTree = "<group>"; };
 		0ACF04100DBA621FA7D2077AE68B844C /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
+		0B0CBE930E619C46D275E073BAD2EFD6 /* Pods-Cute-T Stickers iMessage Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers iMessage Extension.release.xcconfig"; sourceTree = "<group>"; };
 		0E6B2E790F577E2428CA9716EF012205 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
-		117F60F2712B82279B3429DB55457A9D /* Pods-Cute-T Stickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers-Info.plist"; sourceTree = "<group>"; };
+		124A15588550FEC8712D481CDAC8C028 /* Pods-Cute-T Stickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cute-T Stickers-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14F0981CA3177AFB09491C9B2666E2F8 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		156FFCDE5BD21F4327440FD62F587A7D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/Core/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		16D1914A28B1C88765FBAF27735A260B /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
@@ -185,6 +197,7 @@
 		21D939F44B7055E5228BC487AA9883A0 /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		234F4070812F53135AF4E17028BF505E /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
 		235A47BE068253E37225C3276F11A9CF /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
+		25C430E9D9ED5EB746E4E4D9910CD57C /* Pods-Cute-T Stickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers-acknowledgements.plist"; sourceTree = "<group>"; };
 		269912EB331C7635431E95AE21CEB366 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		27F435DD09D5644DD858731BD2730681 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
 		2AD6AFBBF3BA83CC29EA3BF4388F63B3 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
@@ -206,12 +219,11 @@
 		491D4CD6A533D0D247AE20467B3CFE8F /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
 		4A6CBBD6391757EBC2C686B1E21E9D72 /* SDFileAttributeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDFileAttributeHelper.m; path = SDWebImage/Private/SDFileAttributeHelper.m; sourceTree = "<group>"; };
 		4AB75016D8D2A254086C9F252315AE73 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
+		4C61F9089664846BA4C43B09D3B11EA4 /* Pods-Cute-T Stickers iMessage Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cute-T Stickers iMessage Extension-umbrella.h"; sourceTree = "<group>"; };
 		4D0523D9A73F9480152027171D664124 /* NSBezierPath+SDRoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+SDRoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.m"; sourceTree = "<group>"; };
 		4EB08074FABFC1A50C65F4E0A4FF83DC /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
 		4EF8C90FC61916CD683F72695747D70A /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
 		514F07A00D0116DF8447FF488F355AD4 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
-		51AF3E5F9C47286A70533C4630EDEDD2 /* Pods-Cute-T Stickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cute-T Stickers-dummy.m"; sourceTree = "<group>"; };
-		5387F6577B0DE41F35EDB74AEA5FC477 /* Pods-Cute-T Stickers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cute-T Stickers-frameworks.sh"; sourceTree = "<group>"; };
 		540D7E2AE9A7E059D37449B5121B44B8 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		55A7C4DF862A222CB3DAE551011E1A71 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
 		592F0E204FD8C5E22C72805FDF7F4F5A /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
@@ -233,6 +245,7 @@
 		6F46B18320A850200A9465D27D85467F /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
 		6FDFCBE791BDFA0729F6BA14158DCAB0 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		6FE66D5FCDAEBF9507A42A69128ABEAF /* SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoderHelper.h; path = SDWebImage/Core/SDImageCoderHelper.h; sourceTree = "<group>"; };
+		728A9CC67CA502A3B1BEB1C81F586B39 /* Pods-Cute-T Stickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cute-T Stickers-dummy.m"; sourceTree = "<group>"; };
 		740EC90C6B39FAF8FFF1CF355DCBE791 /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74A71F13F43E77B625E8D96AEECF4F27 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
@@ -244,6 +257,7 @@
 		7BC263506E2EA297B163E581EEE525CE /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
 		7C0A8CC456F127FB1677B686F1469DA6 /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
 		7D87304790BD919515ED6B587E728E15 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		7E834972C230370E396F3B0148739980 /* Pods-Cute-T Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers.release.xcconfig"; sourceTree = "<group>"; };
 		844E0FF6C71F9820F0971629E6E6B314 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		87550E6145F64F9C46F47D4D73EB9A69 /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
 		8911EB2E39E507257B1E839536F2A103 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
@@ -251,6 +265,7 @@
 		89EA206555B52DF71CFE7D4524950026 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
 		8A9C9199BE529EC75686EB6AF511A241 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		8B4D67F3EDE26180D143ADCE152B0012 /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
+		8B7766F20A1B1458D8E43E32EFF6136E /* Pods-Cute-T Stickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers-Info.plist"; sourceTree = "<group>"; };
 		8BB6258FEDA694A63312F5F12FFBF0FB /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
 		8BE7FB53E1500054B8402251E9F530FD /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
 		8C18D43BFAC2F1AFEDEFF145953FE451 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
@@ -259,8 +274,6 @@
 		965C534A4904F5850B800599BB110588 /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
 		96D21E8E980CB7B050B4045B52BCDF2A /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
 		972E82F600A6889931FE84266ACF8BF0 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		97DB4E653C0BCDED81A2DD588628E66E /* Pods-Cute-T Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers.release.xcconfig"; sourceTree = "<group>"; };
-		97F35BA0636DB4380F352EC51CF2457F /* Pods-Cute-T Stickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cute-T Stickers.modulemap"; sourceTree = "<group>"; };
 		98DC8DC7957A91D01F8570FFDAA70150 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		9925FFCB73453CE2BC548BBCCC22D7C9 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		9C4B898E2CA7B5B18C22D664431214BB /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
@@ -275,20 +288,21 @@
 		A8D57348F939C629C1124A528522A30B /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
 		AA31FF058F2954D652EB8FD8D96ECE35 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		ABD9CE04FC6B0AD2A7E21C588CFEE55E /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
-		AE5310919913B196D22BFFB49A0BDDA9 /* Pods-Cute-T Stickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cute-T Stickers-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AEEC1D75ACB3E4F1CB3F19F8EB148F28 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		B052F026A037AAB3D758888547AB38B4 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		B06C35F4B3B753B58BA1F0BD8E8F6A17 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E7528B8D85A40ED8889CF264709F73 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B360FB3F5DDEC3D75949BCA80A36FD37 /* Pods-Cute-T Stickers iMessage Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers iMessage Extension-Info.plist"; sourceTree = "<group>"; };
 		B8C8DF394E97F37C1913BB097EEFD84E /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
-		BB2C4C9C09868EE5AA83316C95BD7E31 /* Pods-Cute-T Stickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cute-T Stickers-umbrella.h"; sourceTree = "<group>"; };
 		BC5CB0BA4B68B3469E196D0BF0DC708A /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
 		BE7449785479003A865524AA655F74F0 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		BEB2D38B5D955335D6801906D9AD11E5 /* Pods-Cute-T Stickers iMessage Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cute-T Stickers iMessage Extension.modulemap"; sourceTree = "<group>"; };
 		C7038C0487F4EFF87F26DE75B17207C0 /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
 		C72C032A1C88603F652C05CC3C3BB4DD /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		C798FA16B470E1C026E06557795813F6 /* Pods_Cute_T_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cute_T_Stickers.framework; path = "Pods-Cute-T Stickers.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F587A6C978D369BBB44C40CA276AC /* Pods-Cute-T Stickers iMessage Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers iMessage Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		CA64D4A457190C9CD3CFBA3DEAEBEC13 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
 		CC1710346EFC0018F9F245CBDC9A57A8 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
 		CCD24F7346AFEC57735FA74ACB2EF443 /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
@@ -297,10 +311,13 @@
 		CF7831366369DFAB46AC39181CB25AE7 /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
 		D0D8F50E05A660119D578B16A55140A7 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		D1A34EA4091FD061718C2C863D6D7815 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		D293CF174C7689BAFAEE8144F6A5FC58 /* Pods-Cute-T Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers.debug.xcconfig"; sourceTree = "<group>"; };
+		D6273A0EC35EBB9FBF3E33336D5A612F /* Pods-Cute-T Stickers iMessage Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers iMessage Extension-acknowledgements.plist"; sourceTree = "<group>"; };
 		D946101CC3F887664F5CEA4AB5CC3E4E /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
 		DC28AB9F728D2DF7B32D7B41AF17EFAD /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		DD5E7EE2DB578D6CB4CA5B80032885A9 /* SDImageHEICCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoderInternal.h; path = SDWebImage/Private/SDImageHEICCoderInternal.h; sourceTree = "<group>"; };
 		DD629BD074FD8F86A754A701A2C15D86 /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
+		DE4383D63CE8FD76E6F2C481F4E12C99 /* Pods_Cute_T_Stickers_iMessage_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cute_T_Stickers_iMessage_Extension.framework; path = "Pods-Cute-T Stickers iMessage Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAA76A181D0B6F33A27DAAD1DEADD89 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		E0EACB1E88D78CD824109AF7733105C3 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		E15934F2BDA217AA1C2C47155A6A5BE5 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
@@ -311,10 +328,13 @@
 		EA4210B038D80E5946D786643E5633A3 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		EA608BFC4E8FDE83CBEE5AF99866E96F /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
 		EB377D6524E2C18A1A1816FDBF8E6EA7 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
+		EB5632C27D1A68DFAC48173D6F8CF944 /* Pods-Cute-T Stickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cute-T Stickers.modulemap"; sourceTree = "<group>"; };
 		EB978B3E546EE0EC72CB7689C7265D0E /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
-		EFEFF5A83FCD61FD35594DCA50D65AD8 /* Pods-Cute-T Stickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cute-T Stickers-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED27EFEF14332AD0190CF050DB412A2A /* Pods-Cute-T Stickers iMessage Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cute-T Stickers iMessage Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF1D1EC4D0720C87D79A3B93DDD8C69C /* Pods-Cute-T Stickers iMessage Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cute-T Stickers iMessage Extension-dummy.m"; sourceTree = "<group>"; };
 		F1FD0F75AEC215635DAB11FABAD1B419 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		F3DCA6418554C16BDC1EC93CCEB1FA57 /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtendedCacheData.h"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
+		F44400EB73DDC305CED5470AC3FE3F87 /* Pods-Cute-T Stickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cute-T Stickers-umbrella.h"; sourceTree = "<group>"; };
 		F6D1E73BFDE278BFE02A9CECC7F4D320 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		F7BDB25FB278E90D057E712FA292DBE4 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		F98475E39F4D388878120C5BD50E2FD1 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
@@ -324,7 +344,6 @@
 		FB6642D58850E5B2434ADC32BC0E4E3C /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
 		FB7EE9B323FD339F83E9F8FD82A747A6 /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		FBDFF932CD50CF3E3E2269C954D0E79B /* NSBezierPath+SDRoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+SDRoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.h"; sourceTree = "<group>"; };
-		FFABD4193B89AE9DFC36613E7FB469E1 /* Pods-Cute-T Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cute-T Stickers.debug.xcconfig"; sourceTree = "<group>"; };
 		FFCCCB116402A4D9DE377422FCE45007 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -335,6 +354,14 @@
 			files = (
 				4A2A99EC242EBBB2E149F0A055A057C6 /* Foundation.framework in Frameworks */,
 				F5C59AD186DA3A84879B599C396E5082 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5EE65F4AD65334C751F3813F4DEE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93174780E7331B6B1FC722E573CE81EA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +382,16 @@
 				8523EEFFCB852257853195B0820B4890 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		315C4B33BAF764FE79A10485B6E38750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C798FA16B470E1C026E06557795813F6 /* Pods_Cute_T_Stickers.framework */,
+				DE4383D63CE8FD76E6F2C481F4E12C99 /* Pods_Cute_T_Stickers_iMessage_Extension.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3B2596D3B5D029C3B2A0EB291D881A76 /* Core */ = {
@@ -503,21 +540,29 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		3BD77A297A588E0F2761C07E936D80FE /* Pods-Cute-T Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				EB5632C27D1A68DFAC48173D6F8CF944 /* Pods-Cute-T Stickers.modulemap */,
+				124A15588550FEC8712D481CDAC8C028 /* Pods-Cute-T Stickers-acknowledgements.markdown */,
+				25C430E9D9ED5EB746E4E4D9910CD57C /* Pods-Cute-T Stickers-acknowledgements.plist */,
+				728A9CC67CA502A3B1BEB1C81F586B39 /* Pods-Cute-T Stickers-dummy.m */,
+				09D763DBB6ED241AE2C5ECBE919A01E7 /* Pods-Cute-T Stickers-frameworks.sh */,
+				8B7766F20A1B1458D8E43E32EFF6136E /* Pods-Cute-T Stickers-Info.plist */,
+				F44400EB73DDC305CED5470AC3FE3F87 /* Pods-Cute-T Stickers-umbrella.h */,
+				D293CF174C7689BAFAEE8144F6A5FC58 /* Pods-Cute-T Stickers.debug.xcconfig */,
+				7E834972C230370E396F3B0148739980 /* Pods-Cute-T Stickers.release.xcconfig */,
+			);
+			name = "Pods-Cute-T Stickers";
+			path = "Target Support Files/Pods-Cute-T Stickers";
+			sourceTree = "<group>";
+		};
 		62B72C34195D25016CCD778E716479FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C09B862B667E9179435A781C5F5B9515 /* SDWebImage */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7EF298407339A7CC01EA56839C8070E7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C798FA16B470E1C026E06557795813F6 /* Pods_Cute_T_Stickers.framework */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8523EEFFCB852257853195B0820B4890 /* iOS */ = {
@@ -529,10 +574,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A34FA2DA6DEF53F3BCC696C6B8700022 /* Targets Support Files */ = {
+		9CCF69AA19E543F7EB4FA8FCB35F73E1 /* Pods-Cute-T Stickers iMessage Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C44E7F205CF3083698F03DB532A4E9BC /* Pods-Cute-T Stickers */,
+				BEB2D38B5D955335D6801906D9AD11E5 /* Pods-Cute-T Stickers iMessage Extension.modulemap */,
+				ED27EFEF14332AD0190CF050DB412A2A /* Pods-Cute-T Stickers iMessage Extension-acknowledgements.markdown */,
+				D6273A0EC35EBB9FBF3E33336D5A612F /* Pods-Cute-T Stickers iMessage Extension-acknowledgements.plist */,
+				EF1D1EC4D0720C87D79A3B93DDD8C69C /* Pods-Cute-T Stickers iMessage Extension-dummy.m */,
+				B360FB3F5DDEC3D75949BCA80A36FD37 /* Pods-Cute-T Stickers iMessage Extension-Info.plist */,
+				4C61F9089664846BA4C43B09D3B11EA4 /* Pods-Cute-T Stickers iMessage Extension-umbrella.h */,
+				C97F587A6C978D369BBB44C40CA276AC /* Pods-Cute-T Stickers iMessage Extension.debug.xcconfig */,
+				0B0CBE930E619C46D275E073BAD2EFD6 /* Pods-Cute-T Stickers iMessage Extension.release.xcconfig */,
+			);
+			name = "Pods-Cute-T Stickers iMessage Extension";
+			path = "Target Support Files/Pods-Cute-T Stickers iMessage Extension";
+			sourceTree = "<group>";
+		};
+		A6F9A6998C042425148D5242EED92867 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD77A297A588E0F2761C07E936D80FE /* Pods-Cute-T Stickers */,
+				9CCF69AA19E543F7EB4FA8FCB35F73E1 /* Pods-Cute-T Stickers iMessage Extension */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -545,23 +607,6 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		C44E7F205CF3083698F03DB532A4E9BC /* Pods-Cute-T Stickers */ = {
-			isa = PBXGroup;
-			children = (
-				97F35BA0636DB4380F352EC51CF2457F /* Pods-Cute-T Stickers.modulemap */,
-				AE5310919913B196D22BFFB49A0BDDA9 /* Pods-Cute-T Stickers-acknowledgements.markdown */,
-				EFEFF5A83FCD61FD35594DCA50D65AD8 /* Pods-Cute-T Stickers-acknowledgements.plist */,
-				51AF3E5F9C47286A70533C4630EDEDD2 /* Pods-Cute-T Stickers-dummy.m */,
-				5387F6577B0DE41F35EDB74AEA5FC477 /* Pods-Cute-T Stickers-frameworks.sh */,
-				117F60F2712B82279B3429DB55457A9D /* Pods-Cute-T Stickers-Info.plist */,
-				BB2C4C9C09868EE5AA83316C95BD7E31 /* Pods-Cute-T Stickers-umbrella.h */,
-				FFABD4193B89AE9DFC36613E7FB469E1 /* Pods-Cute-T Stickers.debug.xcconfig */,
-				97DB4E653C0BCDED81A2DD588628E66E /* Pods-Cute-T Stickers.release.xcconfig */,
-			);
-			name = "Pods-Cute-T Stickers";
-			path = "Target Support Files/Pods-Cute-T Stickers";
 			sourceTree = "<group>";
 		};
 		C5134352E74A4C5C78E5C5531A1E8EE3 /* Support Files */ = {
@@ -585,8 +630,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				62B72C34195D25016CCD778E716479FF /* Pods */,
-				7EF298407339A7CC01EA56839C8070E7 /* Products */,
-				A34FA2DA6DEF53F3BCC696C6B8700022 /* Targets Support Files */,
+				315C4B33BAF764FE79A10485B6E38750 /* Products */,
+				A6F9A6998C042425148D5242EED92867 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -598,6 +643,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C9881AEE4168F4BC110DC34C97CED7 /* Pods-Cute-T Stickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FBE853A6803346945AD8EE97A4ED4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2B0B4909111436EFD66893898051F /* Pods-Cute-T Stickers iMessage Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +755,25 @@
 			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D774D7D6A345B77E561A2793E2FB6FFF /* Pods-Cute-T Stickers iMessage Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F09A5545D27214C6A2F5805C85EA44 /* Build configuration list for PBXNativeTarget "Pods-Cute-T Stickers iMessage Extension" */;
+			buildPhases = (
+				33FBE853A6803346945AD8EE97A4ED4B /* Headers */,
+				4307150EAE9BDB5712017AC0DD2A9B5D /* Sources */,
+				2A5EE65F4AD65334C751F3813F4DEE1B /* Frameworks */,
+				D91D01CA69A1678F3A5D4CAB29E53870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EA43D7CD8B3A6C7107BD9819F255DE /* PBXTargetDependency */,
+			);
+			name = "Pods-Cute-T Stickers iMessage Extension";
+			productName = "Pods-Cute-T Stickers iMessage Extension";
+			productReference = DE4383D63CE8FD76E6F2C481F4E12C99 /* Pods_Cute_T_Stickers_iMessage_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E78CA556B8DEA1EC2ACAE8D4C9861C0A /* Pods-Cute-T Stickers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E9D7525506AAF5ED9881E6B3740094E /* Build configuration list for PBXNativeTarget "Pods-Cute-T Stickers" */;
@@ -731,7 +803,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -739,11 +811,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7EF298407339A7CC01EA56839C8070E7 /* Products */;
+			productRefGroup = 315C4B33BAF764FE79A10485B6E38750 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E78CA556B8DEA1EC2ACAE8D4C9861C0A /* Pods-Cute-T Stickers */,
+				D774D7D6A345B77E561A2793E2FB6FFF /* Pods-Cute-T Stickers iMessage Extension */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 			);
 		};
@@ -764,9 +837,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D91D01CA69A1678F3A5D4CAB29E53870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4307150EAE9BDB5712017AC0DD2A9B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C2A82EA5622C8F23E1E94250BD918 /* Pods-Cute-T Stickers iMessage Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FFE1BEA688D6D68639DD740484BD152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,6 +941,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A5EA43D7CD8B3A6C7107BD9819F255DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 9F4046DAC80542D9CEC937D44DF1BA6C /* PBXContainerItemProxy */;
+		};
 		D031A3F903658B0EBCEE0E95763288DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
@@ -864,7 +958,7 @@
 /* Begin XCBuildConfiguration section */
 		11483DC2D3B7F212F76763E370B74FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFABD4193B89AE9DFC36613E7FB469E1 /* Pods-Cute-T Stickers.debug.xcconfig */;
+			baseConfigurationReference = D293CF174C7689BAFAEE8144F6A5FC58 /* Pods-Cute-T Stickers.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -887,6 +981,83 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Cute-T Stickers/Pods-Cute-T Stickers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36CFD387C74F7B96B48B9CAFE6710962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0CBE930E619C46D275E073BAD2EFD6 /* Pods-Cute-T Stickers iMessage Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cute-T Stickers iMessage Extension/Pods-Cute-T Stickers iMessage Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cute-T Stickers iMessage Extension/Pods-Cute-T Stickers iMessage Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		815396AB346F0718724306A88D4A9386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97F587A6C978D369BBB44C40CA276AC /* Pods-Cute-T Stickers iMessage Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cute-T Stickers iMessage Extension/Pods-Cute-T Stickers iMessage Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cute-T Stickers iMessage Extension/Pods-Cute-T Stickers iMessage Extension.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1037,7 +1208,7 @@
 		};
 		D4781DA95F877AF8BE73803CC2497B26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97DB4E653C0BCDED81A2DD588628E66E /* Pods-Cute-T Stickers.release.xcconfig */;
+			baseConfigurationReference = 7E834972C230370E396F3B0148739980 /* Pods-Cute-T Stickers.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1160,6 +1331,15 @@
 			buildConfigurations = (
 				8E0C4F120E972B398E612270FC22FF91 /* Debug */,
 				91DAD1F2A81C85C35BBF47AE213670B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F09A5545D27214C6A2F5805C85EA44 /* Build configuration list for PBXNativeTarget "Pods-Cute-T Stickers iMessage Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815396AB346F0718724306A88D4A9386 /* Debug */,
+				36CFD387C74F7B96B48B9CAFE6710962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
