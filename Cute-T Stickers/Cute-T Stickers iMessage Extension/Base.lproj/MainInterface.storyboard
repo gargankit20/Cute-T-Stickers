@@ -77,9 +77,9 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="524-dY-tho">
-                                <rect key="frame" x="10" y="60" width="300" height="448"/>
+                                <rect key="frame" x="20" y="60" width="280" height="448"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="15" minimumInteritemSpacing="15" id="a77-NV-P0s">
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="5" minimumInteritemSpacing="5" id="a77-NV-P0s">
                                     <size key="itemSize" width="90" height="90"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -121,8 +121,8 @@
                             <constraint firstItem="MeZ-Lq-vel" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="MJO-V0-k8z"/>
                             <constraint firstItem="tPW-Gm-AHM" firstAttribute="leading" secondItem="MeZ-Lq-vel" secondAttribute="trailing" id="UjI-wz-vRd"/>
                             <constraint firstItem="hGh-s6-M6d" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="YTX-Z6-Goc"/>
-                            <constraint firstItem="524-dY-tho" firstAttribute="leading" secondItem="LDy-ih-0nr" secondAttribute="leading" constant="10" id="bsG-fH-ghD"/>
-                            <constraint firstItem="LDy-ih-0nr" firstAttribute="trailing" secondItem="524-dY-tho" secondAttribute="trailing" constant="10" id="d95-8Z-Cmf"/>
+                            <constraint firstItem="524-dY-tho" firstAttribute="leading" secondItem="LDy-ih-0nr" secondAttribute="leading" constant="20" id="bsG-fH-ghD"/>
+                            <constraint firstItem="LDy-ih-0nr" firstAttribute="trailing" secondItem="524-dY-tho" secondAttribute="trailing" constant="20" id="d95-8Z-Cmf"/>
                             <constraint firstItem="MiY-o4-oYB" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="fle-HG-jV9"/>
                             <constraint firstItem="vkW-jt-PRE" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="h3R-Gg-JzM"/>
                             <constraint firstItem="MeZ-Lq-vel" firstAttribute="leading" secondItem="vkW-jt-PRE" secondAttribute="trailing" id="hSc-b0-WsT"/>

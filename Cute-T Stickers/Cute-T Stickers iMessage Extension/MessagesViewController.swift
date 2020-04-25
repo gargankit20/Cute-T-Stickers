@@ -15,8 +15,8 @@ class MessagesViewController: MSMessagesAppViewController, UICollectionViewDataS
     @IBOutlet var stickersCollectionView:UICollectionView!
     
     var packNumber=1
-    let numberOfStickers=[0, 24, 24, 18, 12, 24]
-    let stickerFormat=["", "GIF", "PNG", "GIF", "GIF", "GIF"]
+    let numberOfStickers=[0, 24, 18, 12, 24, 24]
+    let stickerFormat=["", "GIF", "GIF", "GIF", "PNG", "GIF"]
     
     override func viewDidLoad()
     {
@@ -64,7 +64,9 @@ class MessagesViewController: MSMessagesAppViewController, UICollectionViewDataS
     
     func collectionView(_ collectionView:UICollectionView, layout collectionViewLayout:UICollectionViewLayout, sizeForItemAt indexPath:IndexPath)->CGSize
     {
-        return CGSize(width:90, height:90)
+        let deviceWidth=UIScreen.main.bounds.size.width
+        let itemSize=floor((deviceWidth-55)/4)
+        return CGSize(width:itemSize, height:itemSize)
     }
     
     override func willBecomeActive(with conversation:MSConversation)
