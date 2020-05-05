@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  ImagesViewController.h
 //  FunnyBirthCard
 //
 //  Created by Ankit Garg on 5/5/20.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 
-@interface HomeViewController : UIViewController<MFMailComposeViewControllerDelegate>
+@interface ImagesViewController : UIViewController<MFMailComposeViewControllerDelegate>
 {
     NSMutableArray *smallThumbnailsArray;
     NSMutableArray *largeThumbnailsArray;

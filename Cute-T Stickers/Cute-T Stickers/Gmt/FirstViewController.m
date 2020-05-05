@@ -7,8 +7,8 @@
 //
 
 #import "FirstViewController.h"
-#import "HomeViewController.h"
-#import "AppDelegate.h"
+#import "ImagesViewController.h"
+#import "Cute_T_Stickers-Swift.h"
 
 @interface FirstViewController ()
 
@@ -23,7 +23,7 @@
 
 -(IBAction)clickGetLikes
 {
-    HomeViewController *VC=[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    ImagesViewController *VC=[[ImagesViewController alloc] initWithNibName:@"ImagesViewController" bundle:nil];
     
     UINavigationController *navigationController=[[UINavigationController alloc] initWithRootViewController:VC];
     [navigationController.navigationBar setTranslucent:NO];

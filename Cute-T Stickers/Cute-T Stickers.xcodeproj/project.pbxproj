@@ -213,17 +213,17 @@
 		3E68F0972453E4E0003BAC3B /* Pack_5_20.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3E68F0682453E4E0003BAC3B /* Pack_5_20.GIF */; };
 		3E68F0982453E4E0003BAC3B /* Pack_5_20.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3E68F0682453E4E0003BAC3B /* Pack_5_20.GIF */; };
 		3E85681E245163D400D656D4 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E85681D245163D400D656D4 /* StickerCell.swift */; };
-		3E90D56C24616E2E00F7A771 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D51C24616E2E00F7A771 /* Toast+UIView.m */; };
+		3E90D56C24616E2E00F7A771 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D51C24616E2E00F7A771 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E90D56D24616E2E00F7A771 /* AFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D51F24616E2E00F7A771 /* AFImageCache.m */; };
-		3E90D56E24616E2E00F7A771 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52224616E2E00F7A771 /* AFImageRequestOperation.m */; };
-		3E90D56F24616E2E00F7A771 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52324616E2E00F7A771 /* AFPropertyListRequestOperation.m */; };
-		3E90D57024616E2E00F7A771 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52524616E2E00F7A771 /* AFHTTPClient.m */; };
-		3E90D57124616E2E00F7A771 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52724616E2E00F7A771 /* AFNetworkActivityIndicatorManager.m */; };
-		3E90D57224616E2E00F7A771 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52924616E2E00F7A771 /* AFURLConnectionOperation.m */; };
-		3E90D57324616E2E00F7A771 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52A24616E2E00F7A771 /* AFHTTPRequestOperation.m */; };
+		3E90D56E24616E2E00F7A771 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52224616E2E00F7A771 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D56F24616E2E00F7A771 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52324616E2E00F7A771 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D57024616E2E00F7A771 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52524616E2E00F7A771 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D57124616E2E00F7A771 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52724616E2E00F7A771 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D57224616E2E00F7A771 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52924616E2E00F7A771 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D57324616E2E00F7A771 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52A24616E2E00F7A771 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E90D57424616E2E00F7A771 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D52F24616E2E00F7A771 /* UIImageView+AFNetworking.m */; };
-		3E90D57524616E2E00F7A771 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53124616E2E00F7A771 /* AFXMLRequestOperation.m */; };
-		3E90D57624616E2E00F7A771 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53324616E2E00F7A771 /* AFJSONRequestOperation.m */; };
+		3E90D57524616E2E00F7A771 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53124616E2E00F7A771 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3E90D57624616E2E00F7A771 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53324616E2E00F7A771 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E90D57724616E2E00F7A771 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53624616E2E00F7A771 /* UIImage+WebP.m */; };
 		3E90D57824616E2E00F7A771 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53724616E2E00F7A771 /* MKAnnotationView+WebCache.m */; };
 		3E90D57924616E2E00F7A771 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D53C24616E2E00F7A771 /* SDWebImageManager.m */; };
@@ -251,10 +251,8 @@
 		3E90D58F24616E2F00F7A771 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D56924616E2E00F7A771 /* UIButton+WebCache.m */; };
 		3E90D59024616E2F00F7A771 /* SDWebImageWebPCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D56A24616E2E00F7A771 /* SDWebImageWebPCoder.m */; };
 		3E90D5A724616EE300F7A771 /* GetFollowersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D59324616EE300F7A771 /* GetFollowersViewController.m */; };
-		3E90D5A824616EE300F7A771 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D59424616EE300F7A771 /* HomeViewController.m */; };
 		3E90D5A924616EE300F7A771 /* GetLikesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D59724616EE300F7A771 /* GetLikesViewController.m */; };
 		3E90D5AA24616EE300F7A771 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D59824616EE300F7A771 /* LoginViewController.m */; };
-		3E90D5AB24616EE300F7A771 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D59924616EE300F7A771 /* HomeViewController.xib */; };
 		3E90D5AC24616EE300F7A771 /* GetLikesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D59A24616EE300F7A771 /* GetLikesCell.xib */; };
 		3E90D5AD24616EE300F7A771 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D59B24616EE300F7A771 /* FirstViewController.xib */; };
 		3E90D5AE24616EE300F7A771 /* GetLikesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D59D24616EE300F7A771 /* GetLikesCell.m */; };
@@ -264,6 +262,8 @@
 		3E90D5B224616EE300F7A771 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D5A424616EE300F7A771 /* ImageCell.m */; };
 		3E90D5B324616EE300F7A771 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D5A524616EE300F7A771 /* ImageCell.xib */; };
 		3E90D5B424616EE300F7A771 /* GetFollowersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D5A624616EE300F7A771 /* GetFollowersViewController.xib */; };
+		3E90D5BD246181D500F7A771 /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D5BB246181D400F7A771 /* ImagesViewController.m */; };
+		3E90D5BE246181D500F7A771 /* ImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D5BC246181D400F7A771 /* ImagesViewController.xib */; };
 		3ED598C12452920900D63341 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED598C02452920900D63341 /* Messages.framework */; };
 		3ED598C42452920900D63341 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED598C32452920900D63341 /* MessagesViewController.swift */; };
 		3ED598C72452920900D63341 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED598C52452920900D63341 /* MainInterface.storyboard */; };
@@ -492,12 +492,10 @@
 		3E90D56B24616E2E00F7A771 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		3E90D59224616EE300F7A771 /* GetLikesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLikesCell.h; sourceTree = "<group>"; };
 		3E90D59324616EE300F7A771 /* GetFollowersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFollowersViewController.m; sourceTree = "<group>"; };
-		3E90D59424616EE300F7A771 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3E90D59524616EE300F7A771 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		3E90D59624616EE300F7A771 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
 		3E90D59724616EE300F7A771 /* GetLikesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLikesViewController.m; sourceTree = "<group>"; };
 		3E90D59824616EE300F7A771 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		3E90D59924616EE300F7A771 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		3E90D59A24616EE300F7A771 /* GetLikesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetLikesCell.xib; sourceTree = "<group>"; };
 		3E90D59B24616EE300F7A771 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		3E90D59C24616EE300F7A771 /* GetFollowersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFollowersViewController.h; sourceTree = "<group>"; };
@@ -505,12 +503,14 @@
 		3E90D59E24616EE300F7A771 /* GetLikesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetLikesViewController.xib; sourceTree = "<group>"; };
 		3E90D59F24616EE300F7A771 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		3E90D5A024616EE300F7A771 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		3E90D5A124616EE300F7A771 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		3E90D5A224616EE300F7A771 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3E90D5A324616EE300F7A771 /* GetLikesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLikesViewController.h; sourceTree = "<group>"; };
 		3E90D5A424616EE300F7A771 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		3E90D5A524616EE300F7A771 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		3E90D5A624616EE300F7A771 /* GetFollowersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetFollowersViewController.xib; sourceTree = "<group>"; };
+		3E90D5BA246181D300F7A771 /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
+		3E90D5BB246181D400F7A771 /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesViewController.m; sourceTree = "<group>"; };
+		3E90D5BC246181D400F7A771 /* ImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesViewController.xib; sourceTree = "<group>"; };
 		3ED598BF2452920900D63341 /* Cute-T Stickers Pack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cute-T Stickers Pack.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED598C02452920900D63341 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		3ED598C32452920900D63341 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -681,9 +681,9 @@
 				3E90D5A224616EE300F7A771 /* LoginViewController.h */,
 				3E90D59824616EE300F7A771 /* LoginViewController.m */,
 				3E90D5A024616EE300F7A771 /* LoginViewController.xib */,
-				3E90D5A124616EE300F7A771 /* HomeViewController.h */,
-				3E90D59424616EE300F7A771 /* HomeViewController.m */,
-				3E90D59924616EE300F7A771 /* HomeViewController.xib */,
+				3E90D5BA246181D300F7A771 /* ImagesViewController.h */,
+				3E90D5BB246181D400F7A771 /* ImagesViewController.m */,
+				3E90D5BC246181D400F7A771 /* ImagesViewController.xib */,
 				3E90D5A324616EE300F7A771 /* GetLikesViewController.h */,
 				3E90D59724616EE300F7A771 /* GetLikesViewController.m */,
 				3E90D59E24616EE300F7A771 /* GetLikesViewController.xib */,
@@ -1154,6 +1154,7 @@
 				3E68EF812453E498003BAC3B /* Pack_1_10.GIF in Resources */,
 				3E68F08D2453E4E0003BAC3B /* Pack_5_2.GIF in Resources */,
 				3E68F0072453E4BF003BAC3B /* Pack_3_3.GIF in Resources */,
+				3E90D5BE246181D500F7A771 /* ImagesViewController.xib in Resources */,
 				3E68F02F2453E4D0003BAC3B /* Pack_4_10.PNG in Resources */,
 				3E68EFD12453E4B1003BAC3B /* Pack_2_1.GIF in Resources */,
 				3EDB2F93244EA47600C6F2A9 /* Assets.xcassets in Resources */,
@@ -1203,7 +1204,6 @@
 				3E68EF872453E498003BAC3B /* Pack_1_9.GIF in Resources */,
 				3E68F0912453E4E0003BAC3B /* Pack_5_10.GIF in Resources */,
 				3E68F0472453E4D0003BAC3B /* Pack_4_5.PNG in Resources */,
-				3E90D5AB24616EE300F7A771 /* HomeViewController.xib in Resources */,
 				3E68EFDD2453E4B1003BAC3B /* Pack_2_18.GIF in Resources */,
 				3E68F0332453E4D0003BAC3B /* Pack_4_7.PNG in Resources */,
 				3E68F0352453E4D0003BAC3B /* Pack_4_12.PNG in Resources */,
@@ -1310,12 +1310,12 @@
 				3EDB2F8A244EA42E00C6F2A9 /* AppDelegate.swift in Sources */,
 				3EDB2F8C244EA42E00C6F2A9 /* SceneDelegate.swift in Sources */,
 				3E90D5B024616EE300F7A771 /* FirstViewController.m in Sources */,
+				3E90D5BD246181D500F7A771 /* ImagesViewController.m in Sources */,
 				3E90D59024616E2F00F7A771 /* SDWebImageWebPCoder.m in Sources */,
 				3E90D5AA24616EE300F7A771 /* LoginViewController.m in Sources */,
 				3E90D5B224616EE300F7A771 /* ImageCell.m in Sources */,
 				3E90D58524616E2E00F7A771 /* SDImageCache.m in Sources */,
 				3E90D5AE24616EE300F7A771 /* GetLikesCell.m in Sources */,
-				3E90D5A824616EE300F7A771 /* HomeViewController.m in Sources */,
 				3E90D58624616E2E00F7A771 /* SDWebImageDownloaderOperation.m in Sources */,
 				3E90D58224616E2E00F7A771 /* SDWebImageCompat.m in Sources */,
 				3E90D58A24616E2E00F7A771 /* SDWebImageGIFCoder.m in Sources */,
@@ -1555,6 +1555,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Cute-T Stickers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1563,6 +1564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oss.Cute-T-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1575,6 +1577,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Cute-T Stickers/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1583,6 +1586,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oss.Cute-T-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

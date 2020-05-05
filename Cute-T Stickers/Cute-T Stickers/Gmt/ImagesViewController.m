@@ -1,12 +1,12 @@
 //
-//  HomeViewController.m
+//  ImagesViewController.m
 //  FunnyBirthCard
 //
 //  Created by Ankit Garg on 5/5/20.
 //  Copyright © 2020 Yusri. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "ImagesViewController.h"
 #import "GetLikesViewController.h"
 #import "FirstViewController.h"
 #import "AFHTTPRequestOperation.h"
@@ -17,11 +17,11 @@
 #import "ImageCell.h"
 #import <StoreKit/StoreKit.h>
 
-@interface HomeViewController ()
+@interface ImagesViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation ImagesViewController
 
 -(void)viewDidLoad
 {
