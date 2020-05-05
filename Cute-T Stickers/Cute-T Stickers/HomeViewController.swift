@@ -18,10 +18,18 @@ class HomeViewController: UIViewController
     @IBOutlet var categoriesViewTopConstraint:NSLayoutConstraint!
     @IBOutlet var bottomBarImageViewHeightConstraint:NSLayoutConstraint!
     @IBOutlet var dotsButtonBottomConstraint:NSLayoutConstraint!
+    @IBOutlet var backButton:UIButton!
+    
+    var status=0
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        if status==1
+        {
+            backButton.isHidden=true
+        }
         
         let deviceHeight=UIScreen.main.bounds.size.height
         let categoriesViewHeight=(deviceHeight/568)*240+20
@@ -47,5 +55,10 @@ class HomeViewController: UIViewController
         vc.modalPresentationStyle = .fullScreen
         vc.packNumber=button.tag
         present(vc, animated:true, completion:nil)
+    }
+    
+    @IBAction func back()
+    {
+        self.navigationController!.popViewController(animated:true)
     }
 }
