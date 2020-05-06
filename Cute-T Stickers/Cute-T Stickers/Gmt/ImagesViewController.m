@@ -133,6 +133,36 @@
     [self createAlertView:@"Failed" message:@"Please try to send it again"];
 }
 
+-(void)getTemporaryData
+{
+    NSString *urlString=[NSString stringWithFormat:@"%@/get_img.php", [[NSUserDefaults standardUserDefaults] stringForKey:@"a2"]];
+    NSURL *baseURL=[NSURL URLWithString:urlString];
+    
+    AFHTTPClient *httpClient=[[AFHTTPClient alloc] initWithBaseURL:baseURL];
+    NSMutableURLRequest *request=[httpClient requestWithMethod:@"GET" path:urlString parameters:nil];
+    
+    AFHTTPRequestOperation *operation=[[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    [httpClient registerHTTPOperationClass:[AFHTTPRequestOperation class]];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+        NSArray *responseArray=[NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        
+        for(int i=0; i<responseArray.count; i++)
+        {
+            [self->smallThumbnailsArray addObject:responseArray[i][@"link"]];
+        }
+        
+        [self->_collectionView reloadData];
+    }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+        
+    }];
+    [operation start];
+}
+
 -(void)getAllPhotos
 {
     [self.view makeToastActivity];
@@ -164,9 +194,9 @@
         
         [self->_collectionView reloadData];
     }
-    failure:^(AFHTTPRequestOperation *operation, NSError *error)
-    {
-        
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+        [self getTemporaryData];
     }];
     [operation start];
 }

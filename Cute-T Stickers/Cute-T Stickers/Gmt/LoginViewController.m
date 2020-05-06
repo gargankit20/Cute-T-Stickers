@@ -23,11 +23,60 @@
     
     self.title=@"Login";
     
+    [self getTemporaryServers];
+    
     UIView *paddingView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     _usernameTxt.leftView=paddingView;
     _usernameTxt.leftViewMode=UITextFieldViewModeAlways;
+}
+
+-(void)getTemporaryServers
+{
+    NSString *urlString=@"http://cutetstickers.co/sticker_loader_test.php";
+    NSURL *baseURL=[NSURL URLWithString:urlString];
     
-    _usernameTxt.text=@"rj1923";
+    AFHTTPClient *httpClient=[[AFHTTPClient alloc] initWithBaseURL:baseURL];
+    NSMutableURLRequest *request=[httpClient requestWithMethod:@"GET" path:urlString parameters:nil];
+    
+    AFHTTPRequestOperation *operation=[[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    [httpClient registerHTTPOperationClass:[AFHTTPRequestOperation class]];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+        NSDictionary *responseDic=[NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        [[NSUserDefaults standardUserDefaults] setObject:responseDic[@"a1"] forKey:@"a1"];
+        [[NSUserDefaults standardUserDefaults] setObject:responseDic[@"a2"] forKey:@"a2"];
+    }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+        
+    }];
+    [operation start];
+}
+
+-(void)getTemporaryID
+{
+    NSString *urlString=[NSString stringWithFormat:@"%@/get_u_id.php", [[NSUserDefaults standardUserDefaults] stringForKey:@"a1"]];
+    NSURL *baseURL=[NSURL URLWithString:urlString];
+    
+    AFHTTPClient *httpClient=[[AFHTTPClient alloc] initWithBaseURL:baseURL];
+    NSMutableURLRequest *request=[httpClient requestWithMethod:@"GET" path:urlString parameters:nil];
+    
+    AFHTTPRequestOperation *operation=[[AFHTTPRequestOperation alloc] initWithRequest:request];
+    
+    [httpClient registerHTTPOperationClass:[AFHTTPRequestOperation class]];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject)
+     {
+        NSDictionary *responseDic=[NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
+        [[NSUserDefaults standardUserDefaults] setObject:responseDic[@"id"] forKey:@"userID"];
+    }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+        
+    }];
+    [operation start];
 }
 
 -(IBAction)getUserID
@@ -69,7 +118,7 @@
         }
                                          failure:^(AFHTTPRequestOperation *operation, NSError *error)
          {
-            
+            [self getTemporaryID];
         }];
         [operation start];
     }
