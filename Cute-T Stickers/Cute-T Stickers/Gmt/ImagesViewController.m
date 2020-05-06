@@ -70,9 +70,7 @@
     NSString *appDomain=NSBundle.mainBundle.bundleIdentifier;
     [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
     
-    FirstViewController *VC=[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    VC.modalPresentationStyle=UIModalPresentationFullScreen;
-    [self presentViewController:VC animated:YES completion:nil];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(IBAction)showHideSettingsView

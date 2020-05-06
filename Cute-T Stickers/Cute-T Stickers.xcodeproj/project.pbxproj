@@ -264,6 +264,7 @@
 		3E90D5B424616EE300F7A771 /* GetFollowersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D5A624616EE300F7A771 /* GetFollowersViewController.xib */; };
 		3E90D5BD246181D500F7A771 /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D5BB246181D400F7A771 /* ImagesViewController.m */; };
 		3E90D5BE246181D500F7A771 /* ImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E90D5BC246181D400F7A771 /* ImagesViewController.xib */; };
+		3E90D5C0246184B400F7A771 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E90D5BF246184B400F7A771 /* StartViewController.swift */; };
 		3ED598C12452920900D63341 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED598C02452920900D63341 /* Messages.framework */; };
 		3ED598C42452920900D63341 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED598C32452920900D63341 /* MessagesViewController.swift */; };
 		3ED598C72452920900D63341 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED598C52452920900D63341 /* MainInterface.storyboard */; };
@@ -511,6 +512,8 @@
 		3E90D5BA246181D300F7A771 /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
 		3E90D5BB246181D400F7A771 /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesViewController.m; sourceTree = "<group>"; };
 		3E90D5BC246181D400F7A771 /* ImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesViewController.xib; sourceTree = "<group>"; };
+		3E90D5BF246184B400F7A771 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3E90D5C1246185DD00F7A771 /* Cute_T_Stickers-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cute_T_Stickers-Bridging-Header.h"; sourceTree = "<group>"; };
 		3ED598BF2452920900D63341 /* Cute-T Stickers Pack.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cute-T Stickers Pack.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED598C02452920900D63341 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		3ED598C32452920900D63341 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -888,6 +891,8 @@
 				3ED59A232452CB0B00D63341 /* Sticker Packs */,
 				3EDB2F89244EA42E00C6F2A9 /* AppDelegate.swift */,
 				3EDB2F8B244EA42E00C6F2A9 /* SceneDelegate.swift */,
+				3E90D5BF246184B400F7A771 /* StartViewController.swift */,
+				3E90D5C1246185DD00F7A771 /* Cute_T_Stickers-Bridging-Header.h */,
 				3EDB2F9D244EADDC00C6F2A9 /* HomeViewController.swift */,
 				3EDB2F9F244EAE2C00C6F2A9 /* DetailViewController.swift */,
 				3EDB2FA1244EAEB400C6F2A9 /* PopUpViewController.swift */,
@@ -1323,6 +1328,7 @@
 				3E90D58C24616E2F00F7A771 /* UIView+WebCacheOperation.m in Sources */,
 				3E90D57C24616E2E00F7A771 /* UIImage+ForceDecode.m in Sources */,
 				3E90D56D24616E2E00F7A771 /* AFImageCache.m in Sources */,
+				3E90D5C0246184B400F7A771 /* StartViewController.swift in Sources */,
 				3E90D5A924616EE300F7A771 /* GetLikesViewController.m in Sources */,
 				3E90D56E24616E2E00F7A771 /* AFImageRequestOperation.m in Sources */,
 				3E90D58824616E2E00F7A771 /* UIImageView+WebCache.m in Sources */,
@@ -1564,7 +1570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oss.Cute-T-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ankitgarg/Desktop/Cute-T-Stickers/Cute-T Stickers/Cute-T Stickers/Cute_T_Stickers-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1586,7 +1592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oss.Cute-T-Stickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ankitgarg/Desktop/Cute-T-Stickers/Cute-T Stickers/Cute-T Stickers/Cute_T_Stickers-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

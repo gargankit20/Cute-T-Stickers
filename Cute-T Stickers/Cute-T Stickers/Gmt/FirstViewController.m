@@ -21,17 +21,21 @@
     [super viewDidLoad];
 }
 
+-(IBAction)useStickers
+{
+    HomeViewController *vc=[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HomeViewController"];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 -(IBAction)clickGetLikes
 {
     ImagesViewController *VC=[[ImagesViewController alloc] initWithNibName:@"ImagesViewController" bundle:nil];
     
     UINavigationController *navigationController=[[UINavigationController alloc] initWithRootViewController:VC];
+    navigationController.modalPresentationStyle=UIModalPresentationFullScreen;
     [navigationController.navigationBar setTranslucent:NO];
     
-    AppDelegate *newDelegate=(AppDelegate *)[[UIApplication sharedApplication] delegate];
-    
-    newDelegate.window.rootViewController=navigationController;
-    [newDelegate.window makeKeyAndVisible];
+    [self.navigationController presentViewController:navigationController animated:NO completion:nil];
 }
 
 @end
