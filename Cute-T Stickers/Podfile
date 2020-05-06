@@ -8,6 +8,8 @@ target 'Cute-T Stickers' do
   # Pods for Cute-T Stickers
 
 pod 'SDWebImage', '~> 5.0'
+pod 'AFNetworking', '~> 1.3.3'
+pod 'Toast', '~> 4.0.0'
 
 end
 

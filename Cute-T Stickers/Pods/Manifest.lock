@@ -1,18 +1,26 @@
 PODS:
+  - AFNetworking (1.3.4)
   - SDWebImage (5.7.3):
     - SDWebImage/Core (= 5.7.3)
   - SDWebImage/Core (5.7.3)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 1.3.3)
   - SDWebImage (~> 5.0)
+  - Toast (~> 4.0.0)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - SDWebImage
+    - Toast
 
 SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
   SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 1105ce8c5e56745afac4bd566a7f51835edfbcd1
+PODFILE CHECKSUM: d948699784f78cad6c92f7b7e61100b97ebdf9c6
 
 COCOAPODS: 1.9.1
